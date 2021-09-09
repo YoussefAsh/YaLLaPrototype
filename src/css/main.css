@@ -1,0 +1,1055 @@
+@font-face {
+    font-family: mMilk;
+    src: url(../assets/Fonts/marsnevMilk.otf)
+  }
+
+@font-face {
+    font-family: mBold;
+    src: url(../assets/Fonts/marsnevBold.otf);
+  }
+@font-face {
+    font-family: mLight;
+    src: url(../assets/Fonts/marsnevLight.otf);
+  }
+
+
+body{
+    background:#05071d;
+}
+
+.navbarColor{
+background:#05071d;
+
+}
+
+.navContainer{
+width:100%;
+display:flex;
+justify-content: space-around;
+
+}
+
+.navLogo{
+    width:20%;
+    display:flex;
+    justify-content: center;
+}
+
+.navLogo > img {
+    width:60%;
+}
+
+.navCenter{
+    display:flex;
+    justify-content: center;
+}
+
+.navItems{
+    display:flex;
+    justify-content: space-around;
+    width:50%;
+    color:white;
+}
+
+.nav-link{
+    color:white; 
+}
+
+@media (min-width:600px){
+    .navCenter{
+        
+    }
+}
+
+.landerPic{
+position: absolute;
+z-index:-1;
+width: 100%;
+height: 50vw;
+top:0;
+display:flex;
+justify-content: flex-end;
+}
+
+.landerPic > img{
+    height:100%;
+}
+
+.landingPage{
+    width:100%;
+    height:50vw;
+}
+
+.landerText{
+width:50%;
+height:35vw;
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+align-items:flex-end;
+}
+
+.landerDisc{
+color:white;
+font-family: mBold;
+font-weight: bold;
+font-size:5vw;
+line-height: 5.3vw;
+}
+
+.landerButton{
+margin-top:3vw;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: mMilk;
+font-size:0.8vw;
+border: 0.23vw solid #FFFFFF;
+border-radius:0.4vw;
+width: 20vw;
+height:3vw;
+transition: 0.2s all;
+cursor:pointer;
+color:white;
+}
+
+.landerButton > img{
+    margin-left:0.52vw;
+    height:1.2vw;
+}
+
+.landerButton:hover{
+    background:#fcc736;
+    color:#ec128b;
+    border-color:#fcc736;
+
+}
+
+.landerRotate{
+background: #EB3686;
+width: 26.5vw;
+border-radius: 0.26vw;
+transform: rotate(0.7deg);
+}
+
+.recentContent{
+width:100%;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+height:25vw;
+
+}
+
+.contentTitle{
+width:75%;
+color:white;
+font-family: mMilk;
+height:10%;
+font-size:0.9375vw;
+}
+
+.content{
+display: flex;
+justify-content: space-around;
+width:75%;
+height:70%;
+
+}
+
+.contentPiece{
+display: flex;
+flex-direction: column;
+height:30vw;
+width:30%;
+}
+
+.contentPiece > img{
+    width:100%;
+}
+
+
+.contentInfo{
+color:white;
+font-family:mMilk;
+display:flex;
+justify-content: space-between;
+align-items: center;
+background:#ec128b;
+height:3.5vw;
+border-bottom-left-radius: 0.3vw;
+border-bottom-right-radius: 0.3vw;
+}
+
+.contentInfo > div{
+    margin:2.08vw;
+    
+}
+
+.header{
+    font-size:1.25vw;
+}
+
+.info{
+    font-size:0.6vw;
+}
+
+.workPartners{
+    margin-top:5%;
+    margin-bottom:5%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:16vw;
+}
+
+.workTitle{
+    color:white;
+    font-family:mBold;
+    font-size:3.75vw;
+    width:100%;
+    text-align: center;
+}
+
+.workLogos{
+display:flex;
+justify-content: space-around;
+width:40%;
+}
+
+.wLogo{
+width:10.5%;
+}
+
+.wLogo > img{
+    width:100%;
+}
+
+.servicesContainer{
+    width:100%;
+    height:20vw;
+    display:flex;
+    justify-content: center;
+    margin-bottom:10vw;
+}
+
+.servicesExplore{
+    width:80%;
+    display: flex;
+}
+
+.servicesLeft{
+height:100%;
+width:50%;
+background:white;
+}
+
+.servicesLeft > img{
+   height:100%;
+   width:100%;
+}
+
+.servicesRightContainer{
+    width:50%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    background:#ec128b;
+    border-top-right-radius: 0.4vw;
+    border-bottom-right-radius: 0.4vw;
+}
+
+.servicesRight{
+    width:100%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.servicesText{
+    color:white;
+    font-family:mBold;
+    font-size:3.2vw;
+}
+
+.servicesButtonContainer{
+    width:63%;
+}
+
+.servicesButton{
+    color:white;
+    font-size:0.93vw;
+    font-family:mMilk;
+    border:2px solid white;
+    width:50%;
+    padding:0.52vw;
+    text-align: center;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+.servicesButton:hover{
+    background:#fcc736;
+    border-color:#fcc736;
+    color:#ec128b;
+}
+
+
+.footer{
+    border-top:1px solid;
+    border-color:rgba(255, 255, 255, 0.17);
+    height:15vw;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerNavContainer{
+    width:80%;
+    height:30%;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.footerNav{
+    width:50%;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    font-family:mMilk;
+    font-size:0.73vw;
+}
+
+.footerIcons{
+    width:80%;
+    height:65%;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footerSocialsContainer{
+    width:35%;
+    height:60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footerSocials{
+    width:60%;
+    height:30%;
+    display:flex;
+    justify-content: space-around;
+    background:blue;
+}
+
+.footerSocial{
+width:11%;
+height:100%;
+}
+
+.footerSocial > img {
+    width:100%;
+    height:100%;
+}
+
+.footerRight{
+margin-left:3%;
+color:White;
+font-size:2vw;
+height:40%;
+background:red;
+}
+
+.footerLogo{
+    height:100%;
+    width:25%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLogo > img{
+    width:70%;
+}
+
+
+/* ABOUT */
+
+.aboutHeader{
+    background:url('../assets/imgs/HeaderBG.png');
+    background-size: cover;
+    width:100%;
+    height:25vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutHeaderText{
+    color:white;
+    font-family:mBold;
+    font-size: 3.33vw;
+    width:80%;
+    height:70%;
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-end;
+}
+
+.aboutInfo{
+    height:40vw;
+    width:100%;
+
+    display:flex;
+}
+
+.aboutInfoLeft{
+
+    width:50%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutLeftContainer{
+    height:80%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.aboutLeftHeader{
+    color:white;
+    font-family: mBold;
+    font-size:3.23vw;
+}
+
+.aboutLeftText{
+    font-family:mLight;
+    color:white;
+    font-size:0.625vw;
+}
+
+.aboutInfoRight{
+
+    width:50%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutRightContainer{
+    height:80%;
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start; 
+    align-items: center;
+}
+
+.stat{
+    width:40%;
+    height:25%;
+    display:flex;
+    flex-direction: column;
+    font-family:mMilk;
+}
+
+.statNumber{
+    color:#ec128b;
+    font-size:2.19vw;
+}
+
+.statLabel{
+    color:white;
+    font-size:0.9375vw;
+}
+
+.quotation{
+    width:100%;
+    height:30vw;
+    background: #ec128b;
+    display:flex;
+    justify-content: center;
+}
+
+.quotationPic{
+    width:50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.quotationPic > img{
+    height:85%;
+}
+
+.quotationText{
+    width:40%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family:mBold;
+    position:relative;
+}
+
+.quotationText > img{
+    position:absolute;
+    top:30%;
+    left:0;
+    width:2.08vw;
+}
+
+.quotationTextInfo{
+    font-size:1.25vw;
+}
+
+.quotationTextAuthor{
+    width:100%;
+    font-size:0.8vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.managementTeamContainer{
+    width:100%;
+    height:90vw;
+    /* background:red; */
+    display:flex;
+    justify-content: center;
+}
+
+.managementTeam{
+    width:85%;
+    /* background:blue; */
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    font-size:0.83vw;
+
+}
+
+.managementTeamTitle{
+    height:5%;
+    width:100%;
+    /* background:black; */
+    display: flex;
+    align-items: center;
+    color:white;
+    font-family: mMilk;
+}
+
+.managementTeamMembers{
+    height:85%;
+    width:100%;
+    /* background:white; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.managementTeamMember{
+    width:32%;
+    height:49%;
+    /* background:pink; */
+    color:white;
+    font-family:mMilk;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.managementMemberPic{
+    width:100%;
+}
+
+.managementMemberPic > img{
+    width:100%;
+}
+
+/** SERVICES **/
+
+.servicesInfoContainer{
+    width:100%;
+    height:45vw;
+    /* background:red; */
+    display:flex;
+    align-items:center;
+}
+
+.servicesInfo{
+    width:100%;
+    height:85%;
+    /* background:blue; */
+    display:flex;
+    align-items: center;
+}
+
+.servicesInfoLeftContainer{
+    height:90%;
+    width:50%;
+    /* background:black; */
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.servicesInfoLeft{
+    width:80%;
+    height:60%;
+    /* background:red; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.servicesInfoTitle{
+    color:white;
+    font-family:mBold;
+    font-size:3.23vw;
+}
+
+.servicesInfoBio{
+    color:white;
+    font-family:mLight;
+    font-size:0.73vw;
+}
+
+.servicesInfoButton{
+
+}
+
+.servicesInfoRight{
+    height:90%;
+    width:50%;
+    /* background:white; */
+}
+
+.servicesInfoRight{
+    width:50%;
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.servicesInfoRight > img{
+    width:90%;
+}
+
+.ourServicesContainer{
+    width:100%;
+    height:70vw;
+    /* background:red; */
+    display:flex;
+    justify-content: center;
+}
+
+.ourServices{
+    width:80%;
+    height:100%;
+    /* background:blue; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ourServicesTitle{
+    height:8%;
+    display:flex;
+    align-items: center;
+    color:white;
+    font-size:1.66vw;
+    font-family:mMilk;
+}
+
+.ourServicesCards{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height:91%;
+    width:100%;
+}
+
+.ourServiceCard{
+    width:32%;
+    height:46%;
+    background:#0D1028;
+    border-radius:4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color:white;
+
+}
+
+.servicePic{
+    width:100%;
+
+}
+
+.servicePic > img{
+    width:100%;
+}
+
+.ourServiceDisc{
+    width:85%;
+    height:50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background:red; */
+}
+
+.serviceTitle{
+    font-family:mMilk;
+    color:white;
+    font-size:1.25vw;
+}
+
+.serviceBio{
+    font-family: mLight;
+    color:white;
+    font-size:0.73vw;
+}
+
+.serviceLink{
+    color:#ec128b;
+    font-size:0.9375vw;
+}
+
+
+.caseStudiesContainer{
+    height:30vw;
+    width:100%;
+    /* background:red; */
+    display:flex;
+    justify-content: center;
+}
+
+.caseStudies{
+    width:80%;
+    /* background:blue; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.caseStudiesTitle{
+    height:10%;
+    width:100%;
+    display:flex;
+    align-items:center;
+    color:white;
+    font-family:mMilk;
+    font-size:1.66vw;
+}
+
+.caseStudiesCards{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    height:80%;
+}
+
+.caseStudy{
+    width:24%;
+    /* background:white; */
+}
+
+.caseStudy > img{
+    width:100%;
+}
+
+/* TEAMS */
+
+.teamMembersContainer{
+    margin-top:5.21vw;
+    margin-bottom:5.21vw;
+
+    width: 100%;
+    height:65vw;
+    /* background:red; */
+    display:flex;
+    justify-content: center;
+}
+
+.teamMembers{
+    width:70%;
+    height:100%;
+    /* background:blue; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.memberCard{
+    width:30%;
+    height:46%;
+    background:#0D1028;
+    border-radius:3.5%;
+}
+
+.memberPic{
+    width:100%;
+    height:70%;
+    background-color:rgba(196, 196, 196, 0.19);
+    display:flex;
+    justify-content: center;
+    border-top-right-radius:3.5%;
+    border-top-left-radius:3.5%;
+
+}
+
+.memberPic > img { 
+    height:100%;
+}
+
+.memberDetails{
+    height:30%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    font-family: mMilk;
+}
+
+.memberName{
+    width:80%;
+    height:20%;
+    font-size:0.833vw;
+}
+
+.memberCountry{
+    width:80%;
+    height:20%;
+    font-size:0.5vw;
+}
+
+.memberSocials{
+    width:80%;
+    height:20%;
+    display:flex;
+    align-items: center;
+    font-size:0.5vw;
+
+}
+
+.achievementContainer{
+    width:100%;
+    height:30vw;
+    /* background:red;   */
+    display:flex;
+    justify-content: center; 
+    margin-bottom:5.21vw;
+
+}
+
+.achievements{
+height:100%;
+width:70%;
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.achievementTitle{
+    height:10%;
+    color:white;
+    font-family:mMilk;
+    font-size:1.146vw;
+}
+
+.achievementTable{
+    font-size:0.625vw;
+    height:90%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background:blue; */
+}
+
+.achievementRow{
+    width:100%;
+    height:15%;
+    /* background:white; */
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    border-bottom:1px solid;
+    border-color:rgba(255, 255, 255, 0.17);
+    color:white;
+    font-family: mMilk;
+
+}
+
+.placement{
+    width:20%;
+    /* background:#EB3686; */
+}
+
+.date{
+    width:20%;
+    /* background:red; */
+}
+
+.tournament{
+    width:40%;
+    /* background:white; */
+}
+
+.location{
+    width:20%;
+    /* background:black; */
+}
+
+/* CONTACT US  */
+
+.contactTitleContainer{
+    width:100%;
+    height:20vw;
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.contactText{
+    width:80%;
+    color:white;
+    font-family:mMilk;
+    font-size:3.33vw;
+}
+
+.contactFormContainer{
+    width:100%;
+    height:15vw;
+    display:flex;
+    justify-content: center;
+}
+
+.contactForm{
+    width:80%;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.form{
+    width:42%;
+    /* background:red; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input{
+    background:none;
+    border-radius:8px;
+    box-shadow: none;
+    border:1px solid;
+    border-color:rgba(255, 255, 255, 0.17);
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding:2%;
+    font-family:mLight;
+    font-size:1vw;
+}
+
+textarea{
+    background:none;
+    border-radius:8px;
+    box-shadow: none;
+    border:1px solid;
+    border-color:rgba(255, 255, 255, 0.17);
+    background-image:none;
+    background-color:transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    padding:2%;
+    font-family:mLight;
+    font-size:1vw;
+
+}
+
+
+.names{
+    width:100%;   
+    display:flex;
+    justify-content: space-between; 
+    height:15%;
+}
+
+.firstName{
+    width:49%;
+}
+
+.lastName{
+    width:49%;
+}
+
+.email{
+    height:15%;
+}
+
+.Message{
+    height:60%;
+}
+
+.address{
+    width:42%;
+    height:100%;
+    /* background:blue; */
+    display:flex;
+    flex-direction: column;
+    color:white;
+    padding:1.04vw;
+
+}
+
+.addressTitle{
+    height:20%;
+    font-family:mMilk;
+    /* background:Red; */
+    font-size:0.833vw;
+}
+
+.addressDetails{
+    height:60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family:mLight;
+    font-size:0.73vw;
+    /* background:blue; */
+}
+
