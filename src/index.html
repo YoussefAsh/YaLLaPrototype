@@ -18,6 +18,32 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand navLogo" href="./index.html">
+            <img src="./assets/Logo/Yalla logo-04.png" alt="YaLLa Logo" width="171">
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav navItems">
+            <a class="nav-link" href="./about.html">ABOUT</a>
+            <a class="nav-link" href="./services.html">SERVICES</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                TEAMS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./valorant.html">VALORANT</a>
+              </div>
+            </li>
+            <a class="nav-link" href="./contact.html">CONTACT</a>
+            <a href="./contact.html"><button class="btn btn-outline-success me-2" type="button">Get in touch</button></a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,33 +74,6 @@
       </div>
     </nav> -->
     <div class="landingPage">
-       <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand navLogo" href="#">
-              <img src="./assets/Logo/Yalla logo-04.png" alt="YaLLa Logo" width="171">
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav navItems">
-              <a class="nav-link" href="./about.html">ABOUT</a>
-              <a class="nav-link" href="./services.html">SERVICES</a>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  TEAMS
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="./valorant.html">VALORANT</a>
-                </div>
-              </li>
-              <a class="nav-link" href="./contact.html">CONTACT</a>
-              <a href="./contact.html"><button class="btn btn-outline-success me-2" type="button">Get in touch</button></a>
-            </div>
-          </div>
-        </div>
-      </nav>
-  
         <div class="landerPic">
         <img  src="./assets/imgs/LanderPic.png">
       </div>
@@ -83,9 +82,9 @@
 
           Most <br>Professional <div class="landerRotate">ESPORTS</div>organization
         
-        <div class="landerButton">
+        <a href="./services.html"class="landerButton">
           EXPLORE OUR SERVICES <img src="./assets/imgs/left-arrow (2) 3.png">
-        </div>
+        </a>
       </div>
       </div>
         </div>
@@ -145,9 +144,9 @@
           Start working<br> with us!
         </div>
         <div class="servicesButtonContainer">
-        <div class="servicesButton">
+        <a href="./services.html" class="servicesButton">
           Explore Our Services
-        </div>
+        </a>
       </div>
      </div>
       </div>
@@ -157,21 +156,22 @@
   <div class="footer">
     <div class="footerNavContainer">
       <div class="footerNav">
-    <div class="footerNavItem">BACK TO START</div>
-    <div class="footerNavItem">CONTACT</div>
-    <div class="footerNavItem">SOMETHING</div>
-    <div class="footerNavItem">SOMETHING</div>
+    <a href="/" class="footerNavItem">BACK TO START</a>
+    <a href="./about.html" class="footerNavItem">ABOUT</a>
+    <a href="./services.html" class="footerNavItem">SERVICES</a>
+    <a href="./contact.html" class="footerNavItem">CONTACT</a>
       </div> 
     </div>
    <div class="footerIcons">
      <div class="footerSocialsContainer">
     <div class="footerSocials">
-      <div class="footerSocial"><img src="./assets/imgs/Ellipse 61.png"></div>
-      <div class="footerSocial"><img src="./assets/imgs/Ellipse 61.png"></div>
-      <div class="footerSocial"><img src="./assets/imgs/Ellipse 61.png"></div>
-      <div class="footerSocial"><img src="./assets/imgs/Ellipse 61.png"></div>
-      <div class="footerSocial"><img src="./assets/imgs/Ellipse 61.png"></div>
-      <div class="footerSocial"><img src="./assets/imgs/Ellipse 61.png"></div>
+      <a href="https://twitter.com" target="_blank" class="footerSocial"><i class="fab fa-twitter socialIcon"></i></a>
+      <a href="https://twitter.com" class="footerSocial" target="_blank"><i class="fab fa-instagram socialIcon"></i></a>
+      <a href="https://twitter.com" class="footerSocial" target="_blank"><i class="fab fa-facebook socialIcon"></i></a>
+      <a href="https://twitter.com" class="footerSocial" target="_blank"><i class="fab fa-youtube socialIcon"></i></a>
+      <a href="https://twitter.com" class="footerSocial" target="_blank"><i class="fab fa-twitch socialIcon"></i></a>
+      <a href="https://twitter.com" class="footerSocial" target="_blank"><i class="fab fa-discord socialIcon"></i></a>
+
     </div>
     <div class="footerRight">
       All right Reserved .. etc
@@ -188,5 +188,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.min.js"> </script>
+    <script src="https://kit.fontawesome.com/7667d86848.js" crossorigin="anonymous"></script>
   </body>
 </html>

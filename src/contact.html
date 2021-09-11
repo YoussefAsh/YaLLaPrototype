@@ -18,25 +18,32 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbarColor">
-        <div class="container-fluid">
-            <a class="navbar-brand navLogo" href="#">
-              <img src="./assets/Logo/Yalla logo-04.png" alt="YaLLa Logo" width="171">
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse navCenter" id="navbarNavAltMarkup">
-            <div class="navbar-nav navItems">
-              <a class="nav-link" href="#">ABOUT</a>
-              <a class="nav-link" href="#">AGENCY</a>
-              <a class="nav-link" href="#">TEAMS <img src="./assets/imgs/down-chevron 5.png"></a>
-              <a class="nav-link" href="#">CONTACT</a>
-              <button class="btn btn-outline-success me-2" type="button">Get in touch</button>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark navbarColor">
+      <div class="container-fluid">
+          <a class="navbar-brand navLogo" href="./index.html">
+            <img src="./assets/Logo/Yalla logo-04.png" alt="YaLLa Logo" width="171">
+          </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav navItems">
+            <a class="nav-link" href="./about.html">ABOUT</a>
+            <a class="nav-link" href="./services.html">SERVICES</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                TEAMS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="./valorant.html">VALORANT</a>
+              </div>
+            </li>
+            <a class="nav-link" href="./contact.html">CONTACT</a>
+            <a href="./contact.html"><button class="btn btn-outline-success me-2" type="button">Get in touch</button></a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
   
       <div class="aboutHeader">
         <div class="aboutHeaderText">
@@ -45,7 +52,7 @@
       </div>
 
       <div class="contactTitleContainer">
-        <div class="contactText">Start your esports<br>
+        <div class="contactText">Start your <span class="contactRotate">esports</span><br>
         journey with us!</div>
       </div>
       <div class="contactFormContainer">
@@ -74,41 +81,56 @@
 
     <div class="googleMapsContainer">
       <div class="googleMaps">
-        
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3613.709959780316!2d55.14914301508553!3d25.077817842687363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6d8b3a5517e7%3A0x2e64ab14eebcd24b!2sYaLLa%20Esports!5e0!3m2!1sen!2sae!4v1631190728112!5m2!1sen!2sae" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </div>
     </div>
 
-  <div class="footer">
-    <div class="footerNavContainer">
-      <div class="footerNav">
-    <div class="footerNavItem">BACK TO START</div>
-    <div class="footerNavItem">CONTACT</div>
-    <div class="footerNavItem">SOMETHING</div>
-    <div class="footerNavItem">SOMETHING</div>
-      </div> 
+    <div class="footer">
+      <div class="footerNavContainer">
+        <div class="footerNav">
+      <a href="/" class="footerNavItem">BACK TO START</a>
+      <a href="./about.html" class="footerNavItem">ABOUT</a>
+      <a href="./services.html" class="footerNavItem">SERVICES</a>
+      <a href="./contact.html" class="footerNavItem">CONTACT</a>
+        </div> 
+      </div>
+     <div class="footerIcons">
+       <div class="footerSocialsContainer">
+      <div class="footerSocials">
+        <a href="https://twitter.com" target="_blank" class="footerSocial"><i class="fab fa-twitter socialIcon"></i></a>
+        <a href="https://twitter.com" class="footerSocial" target="_blank"><i class="fab fa-instagram socialIcon"></i></a>
+        <a href="https://twitter.com" class="footerSocial" target="_blank"><i class="fab fa-facebook socialIcon"></i></a>
+        <a href="https://twitter.com" class="footerSocial" target="_blank"><i class="fab fa-youtube socialIcon"></i></a>
+        <a href="https://twitter.com" class="footerSocial" target="_blank"><i class="fab fa-twitch socialIcon"></i></a>
+        <a href="https://twitter.com" class="footerSocial" target="_blank"><i class="fab fa-discord socialIcon"></i></a>
+  
+      </div>
+      <div class="footerRight">
+        All right Reserved .. etc
+      </div>
     </div>
-   <div class="footerIcons">
-     <div class="footerSocialsContainer">
-    <div class="footerSocials">
-      <div class="footerSocial"><img src="./assets/imgs/Ellipse 61.png"></div>
-      <div class="footerSocial"><img src="./assets/imgs/Ellipse 61.png"></div>
-      <div class="footerSocial"><img src="./assets/imgs/Ellipse 61.png"></div>
-      <div class="footerSocial"><img src="./assets/imgs/Ellipse 61.png"></div>
-      <div class="footerSocial"><img src="./assets/imgs/Ellipse 61.png"></div>
-      <div class="footerSocial"><img src="./assets/imgs/Ellipse 61.png"></div>
+      <div class="footerLogo">
+        <img src="./assets/Logo/Yalla logo-04.png">
+      </div>
+     </div>
     </div>
-    <div class="footerRight">
-      All right Reserved .. etc
-    </div>
-  </div>
-    <div class="footerLogo">
-      <img src="./assets/Logo/Yalla logo-04.png">
-    </div>
-   </div>
-  </div>
 
     <!--JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-
+    <!-- <script>
+      // Initialize and add the map
+function initMap() {
+  const yalla = { lat: 25.0778178, lng: 55.149143 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 40,
+    center: yalla,
+  });
+  const marker = new google.maps.Marker({
+    position: yalla,
+    map: map,
+  });
+}
+    </script> -->
   </body>
 </html>

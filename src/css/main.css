@@ -17,6 +17,14 @@ body{
     background:#05071d;
 }
 
+nav{
+    font-family:mMilk;
+}
+
+a{
+    text-decoration: none;
+}
+
 .navbarColor{
 background:#05071d;
 
@@ -77,16 +85,17 @@ justify-content: flex-end;
 
 .landingPage{
     width:100%;
-    height:50vw;
+    height:43vw;
 }
 
 .landerText{
-width:50%;
+width:45%;
 height:35vw;
 display:flex;
 flex-direction: column;
 justify-content: space-around;
 align-items:flex-end;
+
 }
 
 .landerDisc{
@@ -330,6 +339,15 @@ background:white;
     font-size:0.73vw;
 }
 
+.footerNavItem{
+    color:white;
+    transition:0.2s all;
+}
+
+.footerNavItem:hover{
+    color:#fcc736;
+}
+
 .footerIcons{
     width:80%;
     height:65%;
@@ -351,25 +369,32 @@ background:white;
     height:30%;
     display:flex;
     justify-content: space-around;
-    background:blue;
+    align-items: center;
+
 }
 
 .footerSocial{
 width:11%;
 height:100%;
+display:flex;
+align-items: center;
 }
 
-.footerSocial > img {
-    width:100%;
-    height:100%;
+.socialIcon{
+    color:white;
+    font-size:1.4vw;
+    transition:0.2s all;
+}
+
+.socialIcon:hover{
+    color:#ec128b;
 }
 
 .footerRight{
-margin-left:3%;
 color:White;
-font-size:2vw;
+font-size:1.1vw;
 height:40%;
-background:red;
+font-family:mLight;
 }
 
 .footerLogo{
@@ -408,6 +433,14 @@ background:red;
     align-items:flex-end;
 }
 
+.aboutRotate{
+    display:inline-block;
+    background: #EB3686;
+    border-radius: 0.26vw;
+    transform: rotate(1deg); 
+    width:30%;
+    }
+
 .aboutInfo{
     height:40vw;
     width:100%;
@@ -425,11 +458,12 @@ background:red;
 }
 
 .aboutLeftContainer{
-    height:80%;
+    height:60%;
     width:80%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
 
 .aboutLeftHeader{
@@ -442,6 +476,8 @@ background:red;
     font-family:mLight;
     color:white;
     font-size:0.625vw;
+    width:75%;
+
 }
 
 .aboutInfoRight{
@@ -776,12 +812,148 @@ background:red;
 
 .caseStudy{
     width:24%;
+    cursor: pointer;
     /* background:white; */
 }
 
 .caseStudy > img{
     width:100%;
 }
+
+.caseStudyModal{
+    height:100%;
+    width:100%;
+    background:#05071d;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caseStudyClose{
+    height:2%;
+    width:95%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background:white; */
+}
+
+.caseStudyDetails{
+    /* background:red; */
+    width:90%;
+    height:55%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.caseStudyLeft{
+    width:45%;
+    height:100%;
+    /* background:blue; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.caseStudyTitle{
+    width:100%;
+    /* background:black; */
+    height: 10%;
+    color:white;
+    display:flex;
+    align-items: center;
+    font-size:3.750vw;
+    font-family:mBold;
+}
+
+.caseRotate{
+    display:inline-block;
+    background: #EB3686;
+    border-radius: 0.26vw;
+    transform: rotate(1deg); 
+    }
+
+.caseStudyText{
+    height:85%;
+    width:100%;
+    /* background:yellow; */
+    display:flex;
+    flex-direction:column ;
+    justify-content: space-around;
+
+}
+
+.caseStudyBrief{
+    width:100%;
+    height:31%;
+    /* background:white; */
+    display:flex;
+    flex-direction: column;
+    color:white;
+
+}
+
+.caseStudyBriefTitle{
+font-size:1.250vw;
+height:22%;
+font-family:mMilk;
+/* background:blue; */
+}
+
+.caseStudyBriefText{
+    height:67%;
+    font-family:mLight;
+    font-family:0.73vw;
+    /* background:green; */
+    
+}
+
+.caseStudyRight{
+    width:45%;
+    height:100%;
+    /* background:pink; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caseStudyImage{
+    height:50%;
+    width:100%;
+    /* background:purple; */
+    display:flex;
+    justify-content: center;
+}
+
+.caseStudyImage > img{
+    height:100%;
+}
+
+.caseStudyNumbers{
+    height:40%;
+    width:70%;
+    /* background:green; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caseStudyBigImage{
+    width:90%;
+    /* background:black; */
+    height:30%;
+    display:flex;
+    justify-content: center;
+}
+
+.caseStudyBigImage > img{
+    height:100%;
+}
+
+
 
 /* TEAMS */
 
@@ -811,6 +983,7 @@ background:red;
     height:46%;
     background:#0D1028;
     border-radius:3.5%;
+    
 }
 
 .memberPic{
@@ -828,8 +1001,15 @@ background:red;
     height:100%;
 }
 
-.memberDetails{
+.memberDetailsContainer{
     height:30%;
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+
+.memberDetails{
+    height:70%;
     width:100%;
     display:flex;
     flex-direction: column;
@@ -848,7 +1028,7 @@ background:red;
 .memberCountry{
     width:80%;
     height:20%;
-    font-size:0.5vw;
+    font-size:0.7vw;
 }
 
 .memberSocials{
@@ -856,7 +1036,7 @@ background:red;
     height:20%;
     display:flex;
     align-items: center;
-    font-size:0.5vw;
+    font-size:0.7vw;
 
 }
 
@@ -945,6 +1125,14 @@ justify-content: space-around;
     font-family:mMilk;
     font-size:3.33vw;
 }
+
+.contactRotate{
+    display:inline-block;
+    background: #EB3686;
+    border-radius: 0.26vw;
+    transform: rotate(1deg); 
+    width:19%;
+    }
 
 .contactFormContainer{
     width:100%;
@@ -1053,3 +1241,20 @@ textarea{
     /* background:blue; */
 }
 
+.googleMapsContainer{
+    width:100%;
+    height:22vw;
+}
+
+.googleMaps{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+}
+
+#map{
+    width:80%;
+    height:90%;
+}
